@@ -7,9 +7,11 @@ This course uses Seumas Macdonald's [Linguae Graecae Per Se Illustrata](https://
 
 # Pronunciation
 
-I'll be using a Restored Imperial Koine pronunciation. [Here](https://www.youtube.com/watch?v=94B26pJM2fg) is a good video you can watch to see what this is like if you want. 
+I'll be using a Restored Imperial Koine pronunciation. [Here](https://www.youtube.com/watch?v=94B26pJM2fg)  is a good video you can watch to see what this is like if you want. 
 
 # Contents
+
+- [τὰ γράμματα (Alphabet)](https://docs.google.com/document/d/1Xuk3hO_Cmqgj2MyppuDSK-wGxPPGdWlDIp8hU7ACGHA/edit?tab=t.0), also see this [video](https://www.youtube.com/watch?v=94B26pJM2fg)
 
 - [Κεφάλαιον τὸ πρῶτον](chapter_01.html), [audio](https://youtu.be/CH2t4L-dCWk?si=h7__RP-HEEXJ8HMT)
 
