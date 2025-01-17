@@ -15,6 +15,8 @@ I'll be using a Restored Imperial Koine pronunciation. [Here](https://www.youtub
 
 - [Κεφάλαιον τὸ πρῶτον](chapter_01.html), [audio](https://youtu.be/CH2t4L-dCWk?si=h7__RP-HEEXJ8HMT)
 
+Weekly class notes can be found [here](class_notes.html)
+
 
 # Credits
 
