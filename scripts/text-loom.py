@@ -1,5 +1,5 @@
 # /// script
-# dependiencies = ["markdown2"]
+# dependencies = ["markdown2"]
 # ///
 from abc import ABC, abstractmethod
 from pathlib import Path
@@ -69,7 +69,11 @@ class MyParser(DataParser):
 class MyWeaver(Weaver):
     def weave(self, text):
         return md.markdown(text)
-        
+
+
+class YamlWeaver(Weaver):
+    def weave(self, chunk):
+        return ''        
 
 class TextLoom(Loom):
     def _process(self, doc_file, data_file, tag_parser=r'\$[A-Z_\-]\$', weave_func=lambda x: x, parser=None):
@@ -98,18 +102,27 @@ class TextLoom(Loom):
 HEADER = """
 <style>
 .container {
-  justtify-content:center;
+  justify-content:center;
   align-items: center;
   display: flex; /* Use flexbox for horizontal alignment */
+  flex-direction: row;
   flex-wrap: wrap; /* Allow elements to wrap to the next line */
 }
 
 .item {
   text-align:center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
   width: 30%; /* Adjust width as needed */
   margin: 10px; /* Add spacing between items */
   padding: 10px;
   box-sizing: border-box; /* Include padding in width calculation */
+}
+
+.item > p {
+    min-width: fit-content;
+    block-size: fit-content;
 }
 
 @media screen and (max-width: 600px) {
