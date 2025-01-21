@@ -1,18 +1,25 @@
 # /// script
 # requires-python = ">=3.13"
-# dependencies = ["pyyaml"]
+# dependencies = ["pyyaml", "toml"]
 # ///
 
 
 import yaml
+import toml
 
 parts = []
-with open('paratext.txt', 'r', encoding='UTF-8') as f:
-    parts = yaml.safe_load(f)
+tom = []
+with open('paratext2.txt', 'r', encoding='UTF-8') as f:
+    #parts = yaml.safe_load(f)
+    parts = toml.load(f)['cons']
+
+
+print(toml.dumps(tom))
 
 
 def handle_item(chunk):
     out = ['<div class="item">']
+    print(chunk)
     for parts in chunk['cons']:
         cons = parts['cons']
         mytype = parts['type']
@@ -34,6 +41,7 @@ def weave(chunk):
 
 
 def main():
+    print(parts)
     for chunk in parts:
         print(weave(chunk))
  
