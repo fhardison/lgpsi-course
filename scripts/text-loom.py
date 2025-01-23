@@ -114,7 +114,7 @@ HEADER = """
   display: flex;
   align-items: center;
   flex-direction: column;
-  width: 30%; /* Adjust width as needed */
+  width: fit-content; /* 30%;  Adjust width as needed */
   margin: 10px; /* Add spacing between items */
   padding: 10px;
   box-sizing: border-box; /* Include padding in width calculation */

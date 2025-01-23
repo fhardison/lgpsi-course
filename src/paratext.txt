@@ -70,3 +70,102 @@ $WHAT$
 <img style="width:300px" src="what.jpg">
 </div>
 </div>
+
+---
+$GREEK$
+
+<div class="container">
+<div class="item">
+<img style="width:400px" src="ellinikow.png">
+</div>
+
+<div class="item">
+<img style="width:400px" src="family.jpeg">
+</div>
+<div class="item">
+- Ἑλληνική &larr; Ἑλληνικός
+</div>
+</div>
+---
+$WHO$
+
+<div class="container">
+<div class="item">
+**τίς**
+
+<img style="width:500px" src="who.jpeg">
+</div>
+
+<div class="item">
+- τοῦ &larr; ὁ
+- τῆς &larr; ἡ
+</div></div>
+---
+$WHOS$
+
+<div class="container">
+<div class="item">
+- τίνες = τίς + τίς
+- τίς ἐστιν;
+- τίνες εἰσιν;
+</div>
+</div>
+---
+$SLAVEMASTER$
+
+<div class="container">
+<div class="item">
+
+<img style="width:400px" src="slave-master.jpg">
+</div>
+</div>
+---
+
+$SLAVESMF$
+
+<div class="container">
+<div class="item">
+- δεσπότης : δούλος  
+- δεσποίνα : δούλα
+</div>
+</div>
+---
+$HOWMANY$
+<div class="container">
+<div class="item">
+*πόσα;*
+
+<img style="width:500px" src="how-many.png">
+</div>
+</div>
+---
+$BIGSMALL$
+<div class="container">
+<div class="item">
+<img style="width:300px" src="big-small.png">
+</div>
+</div>
+---
+$MANYFEW$
+
+<div class="container">
+<div class="item">
+<img style="width:300px" src="many-few.png">
+</div>
+</div>
+---
+$WHOSE$
+
+<div class="container">
+<div class="item">
+- ὁ : τοῦ :: τίς : τίνος
+</div>
+</div>
+---
+$NATS$
+
+<div class="container">
+<div class="item">
+-  Ἑλληνικός &asympeq; Ῥωμαϊκός &asympeq;  Συριακός
+</div>
+</div>
