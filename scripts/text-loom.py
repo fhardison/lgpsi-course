@@ -101,6 +101,32 @@ class TextLoom(Loom):
 
 HEADER = """
 <style>
+
+@font-face {
+  font-family: 'Cardo';
+  src: url('fonts/Cardo-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Cardo';
+  src: url('fonts/Cardo-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Cardo';
+  src: url('fonts/Cardo-Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+body {
+    font-family: 'Cardo';
+    font-size: 1.25em;
+}
 .container {
   justify-content:center;
   align-items: center;
