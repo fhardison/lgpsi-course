@@ -7,7 +7,10 @@ This course uses Seumas Macdonald's [Linguae Graecae Per Se Illustrata](https://
 
 # Pronunciation
 
-I'll be using a Restored Imperial Koine pronunciation. [Here](https://www.youtube.com/watch?v=94B26pJM2fg)  is a good video you can watch to see what this is like if you want. 
+I'll be using a Restored Imperial Koine pronunciation. Below is a good video you can watch to see what this is like if you want. 
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/94B26pJM2fg?si=Pr2Ali4WYyp1-NCU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 # Contents
 
