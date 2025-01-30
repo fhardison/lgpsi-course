@@ -404,8 +404,9 @@ $CALL$
 
 <div class="container">
 <div class="item">
+**καλεῖ**
 
-<img style="width:300px" src="img/">
+<img style="width:300px" src="img/call.png">
 </div>
 </div>
 ---
