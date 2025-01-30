@@ -1,23 +1,23 @@
 $MAP$
 
-![](map.png)
+![](img/map.png)
 ---
 $COUNTRIES$
 
 <div class="container">
 <div class="item">
 <p> Ἡ Ἑλλάς</p> 
-<img src="ellas.png" />
+<img src="img/ellas.png" />
 </div>
 <div class="item">
 Ἡ Ἰταλία  	
 
-![](italia.png)  
+![](img/italia.png)  
 </div>
 <div class="item">
  Ἡ Ἱσπανία 
 
-![](ispania.png)
+![](img/ispania.png)
 </div>
 </div>
 ---
@@ -27,7 +27,7 @@ $WHERE$
 <div class="item">
 **ποῦ**
 
-![](where.png)
+![](img/where.png)
 </div>
 ---
 $WATER$
@@ -36,22 +36,22 @@ $WATER$
 <div class="item">
 Ὁ Νεῖλος
 
-![](nile.png)
+![](img/nile.png)
 </div>
 <div class="item">
 ποταμός 
 
-![](river.jpg)  
+![](img/river.jpg)  
 </div>
 <div class="item">
 νῆσος
 
-![](island.png)
+![](img/island.png)
 </div>
 <div class="item">
 πόλις
 
-![](city.png)
+![](img/city.png)
 </div>
 </div>
 
@@ -67,7 +67,7 @@ $WHAT$
 <div class="item">
 τί
 
-<img style="width:300px" src="what.jpg">
+<img style="width:300px" src="img/what.jpg">
 </div>
 </div>
 
@@ -76,11 +76,11 @@ $GREEK$
 
 <div class="container">
 <div class="item">
-<img style="width:400px" src="ellinikow.png">
+<img style="width:400px" src="img/ellinikow.png">
 </div>
 
 <div class="item">
-<img style="width:400px" src="family.jpeg">
+<img style="width:400px" src="img/family.jpeg">
 </div>
 <div class="item">
 - Ἑλληνική &larr; Ἑλληνικός
@@ -93,7 +93,7 @@ $WHO$
 <div class="item">
 **τίς**
 
-<img style="width:500px" src="who.jpeg">
+<img style="width:500px" src="img/who.jpeg">
 </div>
 
 <div class="item">
@@ -116,7 +116,7 @@ $SLAVEMASTER$
 <div class="container">
 <div class="item">
 
-<img style="width:400px" src="slave-master.jpg">
+<img style="width:400px" src="img/slave-master.jpg">
 </div>
 </div>
 ---
@@ -135,14 +135,14 @@ $HOWMANY$
 <div class="item">
 *πόσα;*
 
-<img style="width:500px" src="how-many.png">
+<img style="width:500px" src="img/how-many.png">
 </div>
 </div>
 ---
 $BIGSMALL$
 <div class="container">
 <div class="item">
-<img style="width:300px" src="big-small.png">
+<img style="width:300px" src="img/big-small.png">
 </div>
 </div>
 ---
@@ -150,7 +150,7 @@ $MANYFEW$
 
 <div class="container">
 <div class="item">
-<img style="width:300px" src="many-few.png">
+<img style="width:300px" src="img/many-few.png">
 </div>
 </div>
 ---
@@ -167,5 +167,262 @@ $NATS$
 <div class="container">
 <div class="item">
 -  Ἑλληνικός &asympeq; Ῥωμαϊκός &asympeq;  Συριακός
+</div>
+</div>
+---
+$ANGRY$
+
+<div class="container">
+<div class="item">
+**ὀργίζεται**
+
+<img style="width:300px" src="img/angry.png">
+</div>
+</div>
+---
+$ASKANSWER$
+
+<div class="container">
+<div class="item">
+**ἐρωτᾷ &harr; ἀποκρῑ́νεται***
+
+<img style="width:300px" src="img/ask-answer.png">
+</div>
+</div>
+---
+$BAD$
+
+<div class="container">
+<div class="item">
+**πονηρός**
+
+<img style="width:300px" src="img/bad.png">
+</div>
+</div>
+---
+$CHARACTERS$
+
+<div class="container">
+<div class="item">
+**πρόσωπα**
+
+<img style="width:300px" src="img/characters.png">
+</div>
+</div>
+---
+$CRYING$
+
+<div class="container">
+<div class="item">
+**δακρῡ́ει**
+
+<img style="width:300px" src="img/crying.png">
+</div>
+
+<div class="item">
+**γελᾷ**
+
+<img style="width:300px" src="img/laughing.png">
+</div>
+</div>
+---
+$CRYING_TWO$
+<div class="container">
+<div class="item">
+**δακρῡ́ει**
+
+<img style="width:300px" src="img/crying.png">
+</div>
+
+<div class="item">
+**πολὺ δακρῡ́ει**
+
+<img style="width:300px" src="img/crying2.png">
+</div>
+</div>
+
+---
+$GOOD$
+
+<div class="container">
+<div class="item">
+- παῖς ἀγαθός 
+- κόρη ἀγαθή
+
+<img style="width:300px" src="img/good.png">
+</div>
+
+<div class="item">
+**πονηρός**
+
+<img style="width:300px" src="img/bad.png">
+</div>
+</div>
+---
+$HAPPY$
+
+<div class="container">
+<div class="item">
+**χαίρει**
+
+<img style="width:300px" src="img/happy.png">
+</div>
+</div>
+---
+$HEAR$
+
+<div class="container">
+<div class="item">
+**ἀκούει**
+
+<img style="width:300px" src="img/hear.png">
+</div>
+</div>
+---
+$HIT$
+
+<div class="container">
+<div class="item">
+**παίει**
+
+<img style="width:300px" src="img/hiting.png">
+</div>
+</div>
+---
+$HIT_TWO$
+
+<div class="container">
+
+* τύπτει &asympeq; παίει
+
+</div>
+---
+$LAUGHING$
+
+<div class="container">
+<div class="item">
+**γελᾷ**
+
+<img style="width:300px" src="img/laughing.png">
+</div>
+</div>
+---
+$PRESENTABSENT$
+
+<div class="container">
+<div class="item">
+**πάρειμι = ἐνθάδε ἐστίν &harr; ἐνθάδε οὐκ ἔστιν**
+
+<img style="width:300px" src="img/present-absent.png">
+</div>
+</div>
+---
+$SILENT$
+
+<div class="container">
+<div class="item">
+**σῑ́γᾱ | σῑγᾶτε**
+
+<img style="width:300px" src="img/silent.png">
+</div>
+</div>
+---
+$SING$
+
+<div class="container">
+<div class="item">
+**ᾄδει**
+
+<img style="width:300px" src="img/singing.png">
+</div>
+
+<div class="item">
+**χαίρει**
+
+<img style="width:300px" src="img/happy.png">
+</div>
+</div>
+---
+$SLEEP$
+
+<div class="container">
+<div class="item">
+
+<img style="width:300px" src="img/sleeping.png">
+</div>
+</div>
+---
+$TALKING$
+
+<div class="container">
+<div class="item">
+**λέγει**
+
+<img style="width:300px" src="img/talking.png">
+</div>
+</div>
+---
+$WHY$
+
+<div class="container">
+<div class="item">
+**διὰ τί;**
+
+<img style="width:300px" src="img/why.jpeg">
+</div>
+</div>
+---
+$SILENT_TWO$
+<div class="container">
+<div class="item">
+- σιγᾶτε &larr; σίγα
+</div>
+</div>
+---
+$COME$
+
+<div class="container">
+<div class="item">
+**ἔρχεται**
+
+<img style="width:300px" src="img/come.jpeg">
+</div>
+</div>
+---
+$SEE$
+
+<div class="container">
+<div class="item">
+**ὁρᾷ**
+
+
+<img style="width:300px" src="img/see.jpeg">
+</div>
+</div>
+---
+$CALL$
+
+<div class="container">
+<div class="item">
+
+<img style="width:300px" src="img/">
+</div>
+</div>
+---
+$EDE$
+
+<div class="container">
+
+- ἡ δὲ = ἡ δὲ Εἰρήνη
+- ὁ δὲ = ὁ δὲ Γρηγόριος
+
+</div>
+---
+$HERETHERE$
+
+<div class="container">
+<div class="item">
+
+<img style="width:300px" src="img/here-there.png">
 </div>
 </div>

@@ -3,3 +3,4 @@ pandoc -s ../src/class_notes.md -o ../docs/class_notes.html --metadata title="Cl
 
 uv run text-loom.py ../src/chapter_01.md ../src/paratext.txt | pandoc -s -o ../docs/chapter_01.html -f markdown+raw_html --metadata title="LGPSI 1" --css simple-v1.css
 uv run text-loom.py ../src/chapter_02.md ../src/paratext.txt | pandoc -s -o ../docs/chapter_02.html -f markdown+raw_html --metadata title="LGPSI 2" --css simple-v1.css
+uv run text-loom.py ../src/chapter_03.md ../src/paratext.txt | pandoc -s -o ../docs/chapter_03.html -f markdown+raw_html --metadata title="LGPSI 3" --css simple-v1.css

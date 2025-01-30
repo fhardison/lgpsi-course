@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>LGPSI 3</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <link rel="stylesheet" href="simple-v1.css" />
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">LGPSI 3</h1>
+</header>
+<style>
+
+@font-face {
+  font-family: 'Cardo';
+  src: url('fonts/Cardo-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Cardo';
+  src: url('fonts/Cardo-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Cardo';
+  src: url('fonts/Cardo-Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+body {
+    font-family: 'Cardo';
+    font-size: 1.25em;
+}
+.container {
+  justify-content:center;
+  align-items: center;
+  display: flex; /* Use flexbox for horizontal alignment */
+  flex-direction: row;
+  flex-wrap: wrap; /* Allow elements to wrap to the next line */
+}
+strong {
+    font-weigh: 900;
+}
+.item {
+  text-align:center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: fit-content; /* 30%;  Adjust width as needed */
+  margin: 10px; /* Add spacing between items */
+  padding: 10px;
+  box-sizing: border-box; /* Include padding in width calculation */
+}
+
+.item > p {
+    min-width: fit-content;
+    block-size: fit-content;
+}
+
+@media screen and (max-width: 600px) {
+  /* For screens smaller than 600px */
+  .container {
+    flex-direction: column; /* Stack items vertically */
+  }
+}
+
+img {width: 100%;}
+</style>
+<h2 id="κεφάλαιον-τὸ-τρίτον">Κεφάλαιον τὸ τρίτον</h2>
+<h1 id="ἡ-πρωτὴ-σκηνή">ἡ πρωτὴ σκηνή</h1>
+<div class="container">
+<div class="item">
+<p><strong>πρόσωπα</strong></p>
+<p><img style="width:300px" src="img/characters.png"></p>
+</div>
+</div>
+<p><strong>πρόσωπα</strong>· Γρηγόριος, Εὐγενίᾱ, Ἀλέξιος, Δημήτριος,
+Εἰρήνη, Σοφίᾱ.</p>
+<div class="container">
+<div class="item">
+<p><strong>ᾄδει</strong></p>
+<p><img style="width:300px" src="img/singing.png"></p>
+</div>
+<div class="item">
+<p><strong>χαίρει</strong></p>
+<p><img style="width:300px" src="img/happy.png"></p>
+</div>
+</div>
+<p>Σοφίᾱ <strong>ᾄδει</strong>. ἡ Σοφίᾱ <strong>χαίρει</strong>.</p>
+<p>Δημήτριος «στ!». ὁ Δημήτριος οὐ χαίρει.</p>
+<p>ἡ δὲ Σοφίᾱ ἔτι ᾄδει.</p>
+<div class="container">
+<div class="item">
+<p><strong>ὀργίζεται</strong></p>
+<p><img style="width:300px" src="img/angry.png"></p>
+</div>
+</div>
+<p>ὁ δὲ Δημήτριος «στ!». ὁ Δημήτριος οὐ χαίρει, ἀλλὰ
+<strong>ὀργίζεται</strong>.</p>
+<p>ἡ δὲ Σοφίᾱ ἔτι ᾄδει.</p>
+<div class="container">
+<div class="item">
+<p><strong>παίει</strong></p>
+<p><img style="width:300px" src="img/hiting.png"></p>
+</div>
+</div>
+<p>ὁ δὲ Δημήτριος τὴν Σωφίᾱν <strong>παίει</strong>.</p>
+<div class="container">
+<div class="item">
+<p><strong>δακρῡ́ει</strong></p>
+<p><img style="width:300px" src="img/crying.png"></p>
+</div>
+<div class="item">
+<p><strong>γελᾷ</strong></p>
+<p><img style="width:300px" src="img/laughing.png"></p>
+</div>
+</div>
+<p>ἡ δὲ Σοφίᾱ νῦν οὐκ ᾄδει, ἀλλὰ <strong>δακρῡ́ει</strong>.</p>
+<p>ὁ δὲ Δημήτριος <strong>γελᾷ</strong>, «ἃ ἅ».</p>
+<div class="container">
+<div class="item">
+<p><strong>ὁρᾷ</strong></p>
+<p><img style="width:300px" src="img/see.jpeg"></p>
+</div>
+</div>
+<p>ὁ μὲν Ἀλέξιος Δημήτριον ὁρᾷ, ὁ δὲ Δημήτριος τὸν Ἀλέξιον οὐχ ὁρᾷ.</p>
+<div class="container">
+<div class="item">
+<p><strong>λέγει</strong></p>
+<p><img style="width:300px" src="img/talking.png"></p>
+</div>
+</div>
+<p>ὁ Ἀλέξιος <strong>λέγει</strong> «τί; ὁ Δημήτριος κόρην παίει, καὶ
+γελᾷ;»</p>
+<p>ὁ Ἀλέξιος ὀργίζεται, καὶ τὸν Δημήτριον παίει.</p>
+<p>ὁ δὲ Δημήτριος νῦν οὐ γελᾷ, ἀλλὰ δακρῡ́ει. ὁ Δημήτριος τὸν Ἀλέξιον
+παίει.</p>
+<p>ἡ δὲ Σοφίᾱ λέγει «ποῦ ἐστιν ἡ μήτηρ;»</p>
+<div class="container">
+<div class="item">
+<p><img style="width:300px" src="img/"></p>
+</div>
+</div>
+<p>ἡ Σοφίᾱ τὴν Εὐγενίᾱν οὐχ ὁρᾷ. ἡ Σοφίᾱ καλεῖ τὴν Εὐγενίᾱν «μῆτερ,
+μῆ-τερ, ὁ Δημήτριός με παίει.»</p>
+<div class="container">
+<div class="item">
+<p><strong>ἔρχεται</strong></p>
+<p><img style="width:300px" src="img/come.jpeg"></p>
+</div>
+</div>
+<p>ἡ μὲν Εὐγενίᾱ οὐκ <strong>ἔρχεται</strong>, ὁ δὲ Γρηγόριος
+ἔρχεται.</p>
+<h2 id="ἡ-δευτέρᾱ-σκηνή">ἡ δευτέρᾱ σκηνή</h2>
+<div class="container">
+<div class="item">
+<p><strong>ἐρωτᾷ ↔︎ ἀποκρῑ́νεται</strong>*</p>
+<p><img style="width:300px" src="img/ask-answer.png"></p>
+</div>
+</div>
+<p>Γρηγόριος <strong>ἐρωτᾷ</strong> «τίς με καλεῖ;»</p>
+<p>ὁ δὲ Ἀλέξιος <strong>ἀποκρῑ́νεται</strong> «οὐδείς σε καλεῖ, τὴν δὲ
+μητέρα καλεῖ ἡ Σοφίᾱ.»</p>
+<div class="container">
+<div class="item">
+<p><strong>πάρειμι = ἐνθάδε ἐστίν ↔︎ ἐνθάδε οὐκ ἔστιν</strong></p>
+<p><img style="width:300px" src="img/present-absent.png"></p>
+</div>
+</div>
+<div class="container">
+<div class="item">
+<p><strong>διὰ τί;</strong></p>
+<p><img style="width:300px" src="img/why.jpeg"></p>
+</div>
+</div>
+<p>ὁ δὲ Γρηγόριος ἐρωτᾷ τὸν Ἀλέξιον «τὴν μὲν μητέρα καλεῖ, ἐγὼ δὲ
+<strong>πάρειμι</strong>. <strong>διὰ τί</strong> ἡ Σοφίᾱ δακρῡ́ει;»</p>
+<p>ὁ δὲ ἀποκρῑ́νεται «ἡ Σοφίᾱ δακρῡ́ει ὅτι ὁ Δημήτριος αὐτὴν παίει.»</p>
+<p>ὁ δὲ Γρηγόριος λέγει «διὰ τί παῖς κόρην μῑκρᾱ̀ν παίει; φεῦ φεῦ. διὰ τί
+ὁ Δημήτριος αὐτὴν παίει;»</p>
+<p>ὁ δὲ ἀποκρῑ́νεται «ὅτι ᾄδει ἡ Σοφίᾱ;»</p>
+<div class="container">
+<div class="item">
+<ul>
+<li>παῖς ἀγαθός</li>
+<li>κόρη ἀγαθή</li>
+</ul>
+<p><img style="width:300px" src="img/good.png"></p>
+</div>
+<div class="item">
+<p><strong>πονηρός</strong></p>
+<p><img style="width:300px" src="img/bad.png"></p>
+</div>
+</div>
+<p>ὁ δὲ Γρηγόριος λέγει «ὦ θύγατέρ μου. ὁ Δημήτριος οὐκ ἔστιν παῖς
+<strong>ἀγαθός</strong>, ἀλλὰ <strong>πονηρός</strong>.»</p>
+<p>ὁ δὲ Ἀλέξιος λέγει «ἡ Σοφίᾱ ἐστὶ κόρη <strong>ἀγαθή</strong>.»</p>
+<p>ὁ δὲ ἀποκρῑ́νεται «ναί, ὀρθῶς, ἀλλὰ ποῦ ἐστιν ἡ μήτηρ; διὰ τί οὐκ
+ἔρχεται;» ὁ γὰρ πατὴρ τὴν μητέρα οὐχ ὁρᾷ.</p>
+<div class="container">
+<div class="item">
+<p><img style="width:300px" src="img/sleeping.png"></p>
+</div>
+</div>
+<p>ὁ οὖν Δημήτριος ἀποκρῑ́νεται «ἡ μήτηρ <strong>καθεύδει</strong>.»</p>
+<p>ὁ δὲ Ἀλέξιος λέγει «στ. οὐ σέ, ἀλλὰ ἐμὲ ἐρωτᾷ ὁ πατήρ.»</p>
+<div class="container">
+<div class="item">
+<ul>
+<li>σιγᾶτε ← σίγα</li>
+</ul>
+</div>
+</div>
+<p>ὁ δὲ Γρηγόριος «παῖδες, <strong>σῑγᾶτε</strong>. ποῦ ἐστιν ἡ
+μήτηρ;»</p>
+<div class="container">
+<div class="item">
+<p><img style="width:300px" src="img/here-there.png"></p>
+</div>
+</div>
+<p>ὁ δὲ Ἀλέξιος ἀποκρῑ́νεται «ἡ μὲν μήτηρ <strong>ἐνθάδε</strong> οὐκ
+ἔστιν, ὁ δὲ Δημήτριός ἐστιν.»</p>
+<p>καλεῖ οὖν ὁ Ἀλέξιος τὴν Εὐγενίᾱν «μῆ-τερ, μῆ-τερ.»</p>
+<div class="container">
+<div class="item">
+<p><strong>ἀκούει</strong></p>
+<p><img style="width:300px" src="img/hear.png"></p>
+</div>
+</div>
+<p>ἡ δὲ Εὐγενίᾱ οὐκ <strong>ἀκούει</strong> οὐδὲ ἔρχεται. διὰ τί οὐκ
+ἔρχεται; ὃτι τοῦ Ἀλεξίου οὐκ ἀκούει. διὰ τί οὐκ αὐτοῦ ἀκούει; ὃτι ἡ
+Εὐγενίᾱ καθεύδει.</p>
+<p>ὁ οὖν Δημήτριος γελᾷ, «ἃ ἅ. οὐδὲ ἡ μήτηρ σοῦ ἀκούει.»</p>
+<div class="container">
+<ul>
+<li>τύπτει ≍ παίει</li>
+</ul>
+</div>
+<p>ὁ δὲ Γρηγόριος ὀργίζεται. λέγει «σῑ́γᾱ». καὶ ὁ πατὴρ τὸν υἱὸν
+<strong>τύπτει</strong>. τὺπ τὺπ τύπ. διὰ τί τύπτει τὸν υἱόν; ὅτι οὐκ
+ἀγαθὸς ὁ πατήρ. νῦν δὲ ὁ Δημήρτιος δακρῡ́ει. ἆρα ἡ Εὐγενίᾱ τοῦ Δημητρίου
+ἀκούει; οὐδὲ αὐτοῦ ἀκούει, οὐδὲ τοῦ Ἀλεξίου, ἀλλὰ ἔτι καθεύδει.</p>
+<p>ἡ δὲ Εἰρήνη καὶ ἀκούει καὶ ἔρχεται.</p>
+<h2 id="ἡ-τρίτη-σκηνή">ἡ τρίτη σκηνή</h2>
+<p>ὁ οὖν Ἀλέξιος λέγει «ἡ μὲν μήτηρ οὐκ ἔρχεται, ἡ δὲ Εἰρήνη
+ἔρχεται.»</p>
+<div class="container">
+<div class="item">
+<p><strong>δακρῡ́ει</strong></p>
+<p><img style="width:300px" src="img/crying.png"></p>
+</div>
+<div class="item">
+<p><strong>πολὺ δακρῡ́ει</strong></p>
+<p><img style="width:300px" src="img/crying2.png"></p>
+</div>
+</div>
+<p>ὁ δὲ Γρηγόριος αὐτοῦ οὐκ ἀκούει, ὁ γὰρ Δημήτριος πολὺ δακρῡ́ει. ἡ δὲ
+Εἰρήνη τὸν Ἀλέξιον ὁρᾷ, καὶ αὐτὸν ἐρωτᾷ «διὰ τί ὁ Δημήτριος
+δακρῡ́ει;»</p>
+<p>ὁ δὲ Ἀλέξιος ἀποκρῑ́νεται «ὁ Δημήτριος δακρῡ́ει ὅτι ὁ πατὴρ τύπτει
+αὐτόν.»</p>
+<div class="container">
+<ul>
+<li>ἡ δὲ = ἡ δὲ Εἰρήνη</li>
+<li>ὁ δὲ = ὁ δὲ Γρηγόριος</li>
+</ul>
+</div>
+<p><strong>ἡ δὲ</strong> ἐρωτᾷ «ἀλλὰ διὰ τί ὁ πατὴρ αὐτὸν τύπτει;»</p>
+<p><strong>ὁ δὲ</strong> ἀποκρῑ́νεται «τὸν Δημήτριον τύπτει ὃτι παῖς
+πονηρός ἐστιν. ὁ δὲ Δημήτριος κόρην μῑκρᾱ̀ν παίει.»</p>
+<p>ἡ δὲ Σοφίᾱ λέγει «πάτερ, ἡ Εἰρήνη ἐνθάδε ἐστίν.»</p>
+<p>ὁ οὖν Γρηγόριος αὐτὴν ὁρᾷ, καὶ λέγει «τί ἐστιν, ὦ θύγατερ;»</p>
+<p>ἡ δὲ ἀποκρῑ́νεται «ὦ πάτερ, διὰ τί ὁ Δημήτριος δακρῡ́ει;»</p>
+<p>ὁ δὲ «ὅτι υἱὸς πονηρός ἐστιν. παῖς ὃς μῑκρᾱ̀ν κόρην παίει οὐκ ἔστιν
+ἀγαθός. ὁ ἀγαθὸς παῖς οὐ παίει κόρην.»</p>
+<p>ὁ οὖν Γρηγόριος πάλιν αὐτὸν τύπτει· τὺπ τὺπ τύπ. ὁ μὲν οὖν Δημήτριος
+πολὺ δακρῡ́ει. ὁ δὲ Ἀλέξιος χαίρει, ἀλλὰ οὐ γελᾷ.</p>
+<p>ἡ δὲ Σοφίᾱ οὐ χαίρει οὐδὲ γελᾷ. διὰ τί; ὅτι κόρη ἀγαθή ἐστιν ἡ Σοφίᾱ.
+ἡ δὲ Εἰρήνη δακρῡ́ει. διὰ τί καὶ ἡ Εἰρήνη δακρῡ́ει; δακρῡ́ει ὅτι ὁ πατὴρ
+τὸν υἱὸν τύπτει. πονηρὸς ὁ παῖς ὃς κόρην παίει, καὶ δὴ καὶ πονηρὸς ὁ
+ἀνὴρ ὃς μῑκρὸν παῖδα τύπτει.</p>
+<p>παῖς γελᾷ. κόρη δακρῡ́ει.</p>
+<p>τίς ἐστιν ὁ παῖς ὃς γελᾷ;</p>
+<p>ὁ παῖς ὃς γελᾷ Δημήτριός ἐστιν.</p>
+<p>τίς ἐστιν ἡ κόρη ἣ δακρῡ́ει;</p>
+<p>ἡ κόρη ἣ δακρῡ́ει ἐστὶν Σοφίᾱ.</p>
+<p>ὁ Δημήτριος, ὃς κόρην παίει, ἐστὶ παῖς πονηρός.</p>
+<p>ἡ κόρη, ἣν Δημήτριος παίει, Σοφίᾱ ἐστίν.</p>
+<p>ὁ Γρηγόριος, ὃς υἱὸν τύπτει, πονηρὸς πατήρ ἐστιν.</p>
+<p>ὁ υἱός, ὃν ὁ Γρηγόριος τύπτει, Δημήτριός ἐστιν.</p>
+<p>τίνα καλεῖ ἡ Σοφίᾱ; τὴν Εὐγενίᾱν καλεῖ.</p>
+<p>ἡ Εὐγενίᾱ, ἣν Σοφίᾱ καλεῖ, ἐστὶ μήτηρ παιδίων. ἀλλὰ ὁ Γρηγόριος τὸν
+Δημήτριον τύπτει. ὁ παῖς, ὃν Γρηγόριος τύπτει, Δημήτριός ἐστιν.</p>
+<p>τίνα καλεῖ ὁ Ἀλέξιος; καὶ ὁ Ἀλέξιος τὴν Εὐγενίᾱν καλεῖ. ἡ δὲ Εὐγενίᾱ
+οὐκ ἀκούει. τίνος ἀκούει ἡ Εὐγενίᾱ; οὐδενὸς καὶ οὐδέν.</p>
+</body>
+</html>

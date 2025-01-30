@@ -80,12 +80,17 @@ class TextLoom(Loom):
         paratext = parser.parse(data_file)
         doc_text = Path(doc_file).read_text()
         tags = re.findall(tag_parser, doc_text)
+        tags_used = set()
         for tag in tags:
             if tag not in paratext:
                 print(tag, "not in paratext data. Continuing")
                 continue
             replacement = weave_func(paratext[tag])
+            tags_used.add(tag)
             doc_text = doc_text.replace(tag, replacement)
+        print("tags not used", file=sys.stderr)
+        for tag in set(tags).difference(tags_used):
+            print(tag, file=sys.stderr)
         return doc_text
 
     def merge_as_textfile(self, doc_file, data_file, tag_parser=r'\$[A-Z_\-]+\$', parser=None):
@@ -134,7 +139,9 @@ body {
   flex-direction: row;
   flex-wrap: wrap; /* Allow elements to wrap to the next line */
 }
-
+strong {
+    font-weigh: 900;
+}
 .item {
   text-align:center;
   display: flex;
