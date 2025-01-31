@@ -23,9 +23,18 @@ I would recommend listening to the audio for the first and third reading to help
 
 # Week 2
 
-- Talk about LGPSI 1 and started LGPSI 2
+- Talked about LGPSI 1 and started LGPSI 2
 
 ## Homework
 
 - Finish reading LGPSI 1
 - Try to read LGPSI 2 using instructions in the General section above
+
+# Week 3
+
+- Finished LGPSI 2 and started LGPSI 3.
+
+## Homework
+
+- Read the last part of LGPSI 2
+- Read LGPSI 3 using the instructions in the General section above.
