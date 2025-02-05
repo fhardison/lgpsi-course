@@ -427,3 +427,139 @@ $HERETHERE$
 <img style="width:300px" src="img/here-there.png">
 </div>
 </div>
+
+---
+$ACCUSE$
+
+<div class="container">
+<div class="item">
+
+<img style="width:300px" src="img/accuse.png">
+</div>
+</div>
+
+---
+$VOCATIVE$
+
+<div class="container">
+<div class="item">
+
+<img style="width:300px" src="img/vocative.png">
+</div>
+</div>
+---
+$TWAMPHORA$
+
+<div class="container">
+<div class="item">
+**ἀμφορεὺς καὶ ἄλλος ἀμφορεύς**
+
+<img style="width:300px" src="img/two-amphora.png.png">
+</div>
+</div>
+
+---
+$OPENSACK$ 
+
+<div class="container">
+<div class="item">
+**ἀνοίγει τὸν σάκκον**
+
+<img style="width:300px" src="img/opensack.png">
+</div>
+</div>
+---
+$CLOSEDSACK$
+
+<div class="container">
+<div class="item">
+**οὐ ἀνεωγμένος ἐστίν ὁ σάκκος**
+<img style="width:300px" src="img/closedsack.png">
+</div>
+</div>
+---
+
+$ENESTIN$
+
+<div class="container">
+<div class="item">
+**ὁ ἄνυρωπος ἔνεστιν.**
+
+<img style="width:300px" src="img/inestin.png">
+</div>
+</div>
+---
+$TWOHOUSE$
+
+<div class="container">
+<div class="item">
+
+<img style="width:300px" src="img/twohouse.png">
+</div>
+</div>
+---
+$GOAWAY$
+
+<div class="container">
+<div class="item">
+**ἀποχωρεῖ ὁ ἄνθρωπος**
+
+<img style="width:300px" src="img/goaway.png">
+</div>
+</div>
+---
+$FULLEMPTY$
+
+<div class="container">
+<div class="item">
+
+<img style="width:300px" src="img/fullempty.png">
+</div>
+</div>
+---
+$COUNTING$
+
+<div class="container">
+<div class="item">
+**ἀριθμεὶ**
+
+<img style="width:300px" src="img/counting.png">
+</div>
+</div>
+
+---
+$COMMAND$
+
+<div class="container">
+
+<div class="item">
+**ὁ δεσπότης καλεύει, "ἐλθέ!"**
+
+<img style="width:300px" src="img/come-call.png">
+
+</div>
+
+<div class="item">
+**ὁ δοῦλος ἔχρεται**
+
+
+<img style="width:300px" src="img/come.png">
+</div>
+
+<div class="item">
+
+* τὸ μὲν ἔρχεται **ὁριστική** ἐστιν. (Indicatibve)
+* τὸ δὲ ἐλθέ **προστακτική** ἐστιν. (Imperative)
+
+</div>
+</div>
+---
+$AMPHORA$
+
+<div class="container">
+<div class="item">
+**ἀμφορεύς**
+
+<img style="width:300px" src="img/amphora.png">
+</div>
+</div>
