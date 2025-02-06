@@ -19,6 +19,7 @@ I'll be using a Restored Imperial Koine pronunciation. Below is a good video you
 - [Κεφάλαιον τὸ πρῶτον](chapter_01.html), [audio](https://youtu.be/CH2t4L-dCWk?si=h7__RP-HEEXJ8HMT)
 - [Κεφάλαιον τὸ δεύτερον](chapter_02.html), [audio](https://youtu.be/fyzNzosBtF0?si=UOB-sbtna0T8NEau)
 - [Κεφάλαιον τὸ τρίτον](chapter_03.html), [audio](https://youtu.be/bWUX-_xp1GE?si=2JGwUK_1Dn20pr26)
+- [Κεφάλαιον τὸ τέταρτον](chapter_04.html), [audio](https://youtu.be/5bShoqPuW8U?si=o8XhuMXnbvdsA58K)
 
 Weekly class notes can be found [here](class_notes.html)
 

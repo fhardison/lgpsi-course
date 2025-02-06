@@ -315,6 +315,12 @@ $PRESENTABSENT$
 
 <img style="width:300px" src="img/present-absent.png">
 </div>
+
+<div class="item">
+**ἀμφορεὺς καὶ ἄλλος ἀμφορεύς**
+
+<img style="width:300px" src="img/two-amphora.png.png">
+</div>
 </div>
 ---
 $SILENT$
@@ -459,7 +465,7 @@ $TWAMPHORA$
 </div>
 
 ---
-$OPENSACK$ 
+$OPENSACK$
 
 <div class="container">
 <div class="item">
@@ -478,10 +484,14 @@ $CLOSEDSACK$
 </div>
 </div>
 ---
-
 $ENESTIN$
 
 <div class="container">
+<div class="item">
+**ἀμφορεύς**
+
+<img style="width:300px" src="img/amphora.png">
+</div>
 <div class="item">
 **ὁ ἄνυρωπος ἔνεστιν.**
 
@@ -505,6 +515,13 @@ $GOAWAY$
 **ἀποχωρεῖ ὁ ἄνθρωπος**
 
 <img style="width:300px" src="img/goaway.png">
+</div>
+<div class="item">
+
+| ὀριστική | προστακτιή | 
+|----------|------------|
+| ἀποχωρεῖ | ἀποχώρει |
+
 </div>
 </div>
 ---
@@ -561,5 +578,103 @@ $AMPHORA$
 **ἀμφορεύς**
 
 <img style="width:300px" src="img/amphora.png">
+</div>
+</div>
+
+
+---
+$WINE$
+
+<div class="container">
+<div class="item">
+**οἶνος**
+
+<img style="width:300px" src="img/wine.png">
+</div>
+<div class="item">
+οἰνῶνι &larr; οἰνών 
+
+οἰνών = τόπος ἐν ῷ ἐστιν ἀμφορεύς τοῦ οἴνου
+</div>
+</div>
+---
+$WINEPLACE$
+
+<div class="container">
+<div class="item">
+οἰνῶνι &larr; οἰνών 
+
+οἰνών = τόπος ἐν ῷ ἐστιν ἀμφορεύς τοῦ οἴνου
+</div>
+</div>
+---
+$MUCHLITTLE$
+
+<div class="container">
+<div class="item">
+**πολύς &asympeq; πολλοί**
+
+<img style="width:300px" src="img/muchmany.png">
+</div>
+</div>
+---
+$CALLS$
+
+<div class="container">
+<div class="item">
+
+* τὸ μὲν καλ**εῖ** ὁριστική ἐστιν.
+* τὸ δὲ κ**ά**λει προστακτική ἐστιν.
+* το μὲν ἐλθ*έ* **ἐνικόν** ἐστιν (Singular)
+* το δὲ ἔλθ*ετε* **πληθυντικόν** ἐστιν (Plural)
+
+</div>
+</div>
+---
+$LISTEN$
+
+<div class="container">
+<div class="item">
+
+| ὀριστική | προστακτιή | 
+|----------|------------| 
+| ἀκού**ει** | ἄκου**σον** |
+| σι**ᾷ** | σ**ί**γα |
+| ἀποκρίνεται | ἀποκρίνου | 
+
+</div>
+</div>
+---
+$HEREPRESENT$
+
+<div class="container">
+<div class="item">
+ἐνθάδε ἐστίν = πἀρεστιν.
+</div>
+</div>
+---
+$GREET$
+
+<div class="container">
+<div class="item">
+ἀσπάζεται = τὸ χαῖρε λέγει
+</div>
+</div>
+---
+$PUT$
+
+<div class="container">
+<div class="item">
+
+| ὀριστική | προστακτιή | 
+|----------|------------| 
+| τίθησι(ν)| θές |
+
+</div>
+
+<div class="item">
+**τράπεζα καὶ σάκκος**
+
+<img style="width:300px" src="img/table.png">
 </div>
 </div>

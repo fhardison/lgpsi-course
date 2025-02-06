@@ -58,11 +58,15 @@ class Weaver(ABC):
 class MyParser(DataParser):
     def parse(self, data_file_path):
         output = {}
-        for chunk in Path(data_file_path).read_text().split('---'):
-            tag, body = chunk.strip().split('\n', maxsplit=1)
-            if tag in output:
-                raise Exception("Duplicate tag in data file")
-            output[tag] = body
+        for chunk in re.split(r'\n---\s*\n', Path(data_file_path).read_text()):
+            try:
+                tag, body = chunk.strip().split('\n', maxsplit=1)
+                if tag.strip() in output:
+                    raise Exception("Duplicate tag in data file")
+                output[tag.strip()] = body
+            except:
+                print("ERROR pasring", data_file_path, file=sys.stderr)
+                print("-", chunk, file=sys.stderr)
         return output
 
 
@@ -83,7 +87,7 @@ class TextLoom(Loom):
         tags_used = set()
         for tag in tags:
             if tag not in paratext:
-                print(tag, "not in paratext data. Continuing")
+                print(tag, "not in paratext data. Continuing", file=sys.stderr)
                 continue
             replacement = weave_func(paratext[tag])
             tags_used.add(tag)
