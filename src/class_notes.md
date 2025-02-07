@@ -38,3 +38,12 @@ I would recommend listening to the audio for the first and third reading to help
 
 - Read the last part of LGPSI 2
 - Read LGPSI 3 using the instructions in the General section above.
+
+# Week 4
+
+- Read more of LGPSI 3. I may review the end in our next class, but I don't plan on going over the last section in great detail. Please finish that on your own.
+
+## Homework
+
+- Read last part of LGPSI 3
+- Read LGPSI 4 using the instructions in the General section above to prepare for next class.
