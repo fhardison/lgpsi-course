@@ -315,13 +315,24 @@ $PRESENTABSENT$
 
 <img style="width:300px" src="img/present-absent.png">
 </div>
+</div>
+---
+$PRESENTABSENT_TWO$
+
+<div class="container">
+<div class="item">
+**πάρειμι = ἐνθάδε ἐστίν &harr; ἐνθάδε οὐκ ἔστιν**
+
+<img style="width:300px" src="img/present-absent.png">
+</div>
 
 <div class="item">
 **ἀμφορεὺς καὶ ἄλλος ἀμφορεύς**
 
-<img style="width:300px" src="img/two-amphora.png.png">
+<img style="width:300px" src="img/two-amphora.png">
 </div>
 </div>
+
 ---
 $SILENT$
 
