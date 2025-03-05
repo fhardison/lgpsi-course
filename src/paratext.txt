@@ -689,3 +689,144 @@ $PUT$
 <img style="width:300px" src="img/table.png">
 </div>
 </div>
+
+
+---
+$WITH$
+
+<div class="container">
+<div class="item">
+
+<img style="width:500px" src="img/with.png"> 
+
+σύν &asympeq; μετά
+
+</div>
+</div>
+
+---
+$FIELD_CITY$
+<div class="container">
+<div class="item">
+
+
+|    |    |
+|:----:|:---:|
+|<img style="width:300px" src="img/field.png"> | <img style="width:300px;" src="img/city.png"> | 
+| ὁ ἄγρος | ἡ πόλις = τὸ ἄστυ | 
+
+
+<img style="width:400px" src="img/peristilo.png">  
+</div>
+</div>
+
+---
+$DOOR_WINDOW$
+
+<div class="container">
+<div class="item">
+|    |
+|:---:|
+| <img style="width:300px" src="img/windows-door.png"> | 
+| θύρα καὶ δύο θυρίδες (ἡ θυρίς) | 
+
+
+</div>
+</div>
+
+---
+$aule$
+
+<div class="container">
+<div class="item">
+
+αὐλή = τόπος μέγας ἐν οἴκῳ 
+
+</div>
+</div>
+
+---
+$ROOMS$
+
+<div class="container">
+<div class="item">
+οίήμα = τόπος ἐν οἴκῳ οὑ μέγας ἐν ᾧ καθεύδουσιν ἄνθρωποι.
+</div>
+</div>
+
+---
+$WITHOUT$
+
+<div class="container">
+<div class="item">
+
+ἄνευ &harr; σύν ἢ μετά
+
+<img style="width:400px" src="img/house-in-out.png">  
+
+</div>
+</div>
+---
+$THROW_CATCH$
+
+
+<div class="container">
+<div class="item">
+
+|     |     |
+|:---:|:---:|
+| <img style="width:300px" src="img/throw.png"> | <img style="width:300px" src="img/ball.png"> | 
+| βάλλει &harr; λαμβάνει  | ἡ σφαῖρα | 
+
+
+|     |
+|:---:|
+| <img style="width:300px" src="img/seek.png"> | 
+| ζητεῖ |
+ 
+ </div>
+</div>
+---
+$KNOCK$
+
+<div class="container">
+<div class="item">
+
+- κόπτει &asympeq; τύπτει
+- λέγουσα &asympeq; λέγει
+
+</div>
+</div>
+---
+$COMEAGAIN$
+
+<div class="container">
+<div class="item">
+
+- ἐπανέρχονται = πάλιν ἔρχονται
+- λέγων = λέγουσα
+
+</div>
+</div>
+---
+$RIDING$
+
+<div class="container">
+<div class="item">
+|    |   |
+|:--:|:--:|
+| <img style="width:300px" src="img/walk-not-run.png"> | <img style="width:300px" src="img/horse-riding.png"> | 
+| οἱ δούλοι βαδίζουσιν | ὁ κύριος ἐπὶ ἴππου ὀχείται |   
+</div>
+</div>
+
+---
+$THE_SIX$
+
+<div class="container">
+<div class="item">
+
+οἱ ἔξ = οἱ ἔξ παῖδες.
+
+</div>
+</div>
