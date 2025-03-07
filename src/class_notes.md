@@ -47,3 +47,12 @@ I would recommend listening to the audio for the first and third reading to help
 
 - Read last part of LGPSI 3
 - Read LGPSI 4 using the instructions in the General section above to prepare for next class.
+
+# Week 5
+
+- Read scene 1 and part of scene 2 of LGPSI 4. We'll continue this in our next class. 
+
+## Homework
+
+- Read LGPSI 4 using the instructions in the General seciton above to prepare for next class. 
+- Chapter 5 is also ready if you want to read ahead.
