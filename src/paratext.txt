@@ -504,7 +504,7 @@ $ENESTIN$
 <img style="width:300px" src="img/amphora.png">
 </div>
 <div class="item">
-**ὁ ἄνυρωπος ἔνεστιν.**
+**ὁ ἄνθρωπος ἔνεστιν.**
 
 <img style="width:300px" src="img/inestin.png">
 </div>
