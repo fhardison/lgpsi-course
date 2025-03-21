@@ -56,3 +56,16 @@ I would recommend listening to the audio for the first and third reading to help
 
 - Read LGPSI 4 using the instructions in the General seciton above to prepare for next class. 
 - Chapter 5 is also ready if you want to read ahead.
+
+# Week 6
+
+- Finished LGPSI 4
+
+## Homework
+
+- Reread/listen to LGPSI 4 if you want
+- Read/listen to LGPSI 5 to prepare for next class 
+
+
+
+
