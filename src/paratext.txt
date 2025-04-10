@@ -830,3 +830,45 @@ $THE_SIX$
 
 </div>
 </div>
+---
+$GREATER_THAN$
+<div class="container">
+<div class="item">
+
+- τρεῖς ἐστιν ἀριθμὸς μείζων ἢ δύο.
+- 3 &gt; 2.
+
+</div>
+</div>
+
+---
+$PROS_FIELDS$
+<div class="container">
+<div class="item">
+
+<img style="width:300px" src="img/to_fields.png">
+
+ἡ ὄδος πρὸς τοὺς ἀγροὺς ἄγει, οὑ πρὸς τὴν θάλασσαν.
+</div>
+
+<div class="item">
+
+<img style="width:400px" src="img/before_after.png">
+</div>
+</div>
+
+---
+$AROUND$
+
+<div class="container">
+<div class="item">
+
+<img style="width:300px" src="img/around.png">
+</div>
+
+
+<div class="item">
+
+<img style="width:300px" src="img/gates.png">
+</div>
+</div>
