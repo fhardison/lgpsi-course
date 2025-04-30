@@ -7,3 +7,4 @@ uv run text-loom.py ../src/chapter_03.md ../src/paratext.txt | pandoc -s -o ../d
 uv run text-loom.py ../src/chapter_04.md ../src/paratext.txt | pandoc -s -o ../docs/chapter_04.html -f markdown+raw_html --metadata title="LGPSI 4" --css simple-v1.css
 uv run text-loom.py ../src/chapter_05.md ../src/paratext.txt | pandoc -s -o ../docs/chapter_05.html -f markdown+raw_html --metadata title="LGPSI 5" --css simple-v1.css
 uv run text-loom.py ../src/chapter_06.md ../src/paratext.txt | pandoc -s -o ../docs/chapter_06.html -f markdown+raw_html --metadata title="LGPSI 6" --css simple-v1.css
+uv run text-loom.py ../src/chapter_07.md ../src/paratext.txt | pandoc -s -o ../docs/chapter_07.html -f markdown+raw_html --metadata title="LGPSI 7" --css simple-v1.css
